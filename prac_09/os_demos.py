@@ -33,7 +33,7 @@ def main():
         new_name = get_fixed_filename(filename)
         print("Renaming {} to {}".format(filename, new_name))
 
-        # 
+
         # Option 1: rename file to new name - in place
         # os.rename(filename, new_name)
 
